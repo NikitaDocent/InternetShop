@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.AccessContext">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAgAQAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>AccessContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.UnitOfWork" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iIAAAQAAACAAAAAAACAgAQAAAAAAAIAAAAAAAgAAAAQ=</HashCode>
+      <FileName>UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.Repository.AdminRepository" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAgEAAAAAAAABAAAAAAAAAAAEIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\AdminRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.Repository.ClientRepository" BaseTypeListCollapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAgEAAAAAAAABAAAAAAAAAAAEIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\ClientRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.Repository.ManagerRepository" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAgEAAAAAAAABAAAAAAAAAAAEIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\ManagerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.Repository.ProductRepository" BaseTypeListCollapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAgEAAAAAAAABAAAAAAAAAAAEIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\ProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DAL.Interface.IRepository&lt;T&gt;">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAABAAAAAAAAAAAEIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interface\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAL.Interface.IUnitOfWork">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAACAgAQAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Interface\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

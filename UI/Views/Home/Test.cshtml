@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+}
+
+<p><h3>Manage with Products</h3></p>
+<body>
+    <table class="table">
+        <tr>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+        </tr>
+
+            <tr>
+                <td>
+                    @foreach (var item in ViewBag.Prod1)
+                    {<div class="card-deck mb-3 text-center">
+
+                         <div class="card mb-4 shadow-sm " style="width: 18rem;">
+                             <img src="@item.http" class="card-img-top" alt="..." style="width: 18rem;">
+                             <div class="card-header">
+                                 <h4 class="my-0 font-weight-normal">@item.Name</h4>
+                             </div>
+                             <div class="card-body">
+                                 <h2 class="card-title pricing-card-title">
+                                     $@item.Cost
+                                 </h2>
+                                 <ul class="list-unstyled mt-3 mb-4">
+                                     <li>@item.Description</li>
+                                 </ul>
+                                 <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
+                             </div>
+                             <br />
+                             <br />
+                         </div>
+                    </div>
+                            }
+                    </td>
+                <td>
+                            @foreach (var item in ViewBag.Prod2)
+                            {
+                    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+                        <img src="@item.http" class="card-img-top" alt="..." style="width: 18rem;">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">@item.Name</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">
+                                $@item.Cost
+                            </h2>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>@item.Description</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                            }
+                </td>
+                <td>
+                            @foreach (var item in ViewBag.Prod3)
+                            {
+                    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+                        <img src="@item.http" class="card-img-top" alt="..." style="width: 18rem;">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">@item.Name</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">
+                                $@item.Cost
+                            </h2>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>@item.Description</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
+                        </div>
+                        <br />
+                        <br />
+
+                    </div>
+                            }
+                </td>
+                <td>
+                            @foreach (var item in ViewBag.Prod4)
+                            {
+                    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+                        <img src="@item.http" class="card-img-top" alt="..." style="width: 18rem;">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">@item.Name</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title pricing-card-title">
+                                $@item.Cost
+                            </h2>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>@item.Description</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                            }
+                </td>
+            </tr>
+</table>
+</body>

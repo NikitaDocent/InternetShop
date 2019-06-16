@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.Exeptions.AdminException">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Exeptions\AdminExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Exeptions.ClientException">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Exeptions\ClientExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Exeptions.ManagerExeption">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Exeptions\ManagerExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Exeptions.ProductExeption">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Exeptions\ProductExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Find_and_Sort.FindClient">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Find_and_Sort\FindClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Find_and_Sort.FindManager">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Find_and_Sort\FindManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Find_and_Sort.FindProduct">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAigAA=</HashCode>
+      <FileName>Find_and_Sort\FindProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Find_and_Sort.SortProducts">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Find_and_Sort\SortProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Managment.AdminsManagment" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgEAAAAAAAEAEAAAAAACAAAEIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Managment\AdminsManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Managment.ClientsManagment" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgEAAAAAAAEAAAAAAAACAAAEIAAAAEAAAAAAAAAI=</HashCode>
+      <FileName>Managment\ClientsManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Managment.ManagersManagment" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgEAAAAAAAEAAAAAAAACEAAEIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Managment\ManagersManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Managment.ProductsManagment" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgEgAAAAAAEAAAAAAAACAAAEIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Managment\ProductsManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Statistic.Stats">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Statistic\Stats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.WorkShop">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMIwBAWFAGAAAgAAEAAgIAJFEEAEAAAQCQIgCCAAAI=</HashCode>
+      <FileName>WorkShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BLL.Interface.IManagment&lt;T&gt;">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgEAAAAAAAEAAAAAAAAAAAAEIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interface\IManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
